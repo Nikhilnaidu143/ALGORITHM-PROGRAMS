@@ -54,7 +54,6 @@ public class PrimeAnagramAndPalindrome {
 	
 	/*** Prime -Anagrams method ***/
 	public static void primeAnagrams() {
-		primeNumInRange();
 		for(int i = 0; i < arrayList.size(); i++) {
 			int getNum1 = arrayList.get(i);
 			String NumToString1 = Integer.toString(getNum1);
